@@ -1,0 +1,86 @@
+.github-card {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 8px 0;
+    background: #fff;
+    color: #555;
+    position: relative;
+    border:1px solid #eee;
+    border-radius:5px;
+    border-color:#eee #ddd #bbb;
+    box-shadow:rgba(0,0,0,.14) 0 1px 3px
+}
+.github-card {
+    border-radius:5px;
+    padding:8px 8px 0;
+    background:#fff;
+    color:#555;
+    position:relative
+}
+.github-card a {
+    text-decoration:none;
+    color:#4183c4;
+    outline:0
+}
+.github-card a:hover {
+    text-decoration:underline
+}
+.github-card .header {
+    position:relative
+}
+.github-card .header sup {
+    font-size: 10px;
+    margin-left: 3px;
+    color: #797979;
+}
+.github-card .header {
+    padding:3px 0 4px 57px
+}
+.github-card .header img {
+    position:absolute;
+    top:0;
+    left:0;
+    width:48px;
+    height:48px;
+    background:#fff;
+    border-radius:4px
+}
+.github-card .header a {
+    color:#707070
+}
+.github-card .header strong {
+    display:block;
+    font-size:18px;
+    line-height:1.4
+}
+.github-card .header strong a {
+    color:#292f33
+}
+.github-card .header sup {
+    font-size:10px;
+    margin-left:3px;
+    color:#797979
+}
+.github-card .content {
+    padding:6px 0 10px
+}
+.github-card .content p {
+    margin:0 5px 0 0;
+    font:18px/24px Georgia,"Times New Roman",Palatino,serif;
+    overflow:hidden;
+    clear:both;
+    word-wrap:break-word
+}
+.github-card .footer {
+    border-top:1px solid #eee;
+    padding:8px 0 6px
+}
+.github-card .status {
+    font-size:10px;
+    padding-right:10px;
+    text-transform:uppercase
+}
+.github-card .status strong {
+    font-size:12px;
+    padding-right:5px
+}
