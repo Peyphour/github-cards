@@ -38,6 +38,7 @@ function createCard(repo) {
 
 function handleResponse(data) {
   let cards = [];
+  data = data.sort(function(a, b) {a = new Date(a.updated_at);b = new Date(b.updated_at); return (a < b) - (a > b);}); 
   for(let repo of data) {
     cards.push(createCard(repo))
   }
