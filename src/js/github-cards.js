@@ -51,3 +51,10 @@ function fetchRepositories(user, callback) {
     .then(body => handleResponse(body))
     .then(cards => callback(cards))
 }
+
+function fetchRepository(repo, callback) {
+  fetch("https://api.github.com/repos/" + repo)
+	.then(response => response.json())
+	.then(body => createCard(body))
+	.then(card => callback(card))
+}
