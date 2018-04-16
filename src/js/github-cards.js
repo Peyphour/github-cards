@@ -46,7 +46,7 @@ function handleResponse(data) {
 }
 
 function fetchRepositories(user, callback) {
-  fetch("https://api.github.com/users/" + user + "/repos")
+  fetch("https://api.github.com/users/" + user + "/repos?per_page=500")
     .then(response => response.json())
     .then(body => handleResponse(body))
     .then(cards => callback(cards))
